@@ -1,0 +1,108 @@
+body{
+	margin: 0;
+	background: #d9d9d9;
+	padding: 0;
+	overflow: hidden;
+}
+.con{
+	display: flex;
+	margin:2% auto;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+}
+.shape1{
+	margin: 10px;
+	width: 200px;
+	height: 200px;
+	background: #d9d9d9;
+	border-radius: 20px;
+	box-shadow: -3px -3px 9px #ffffff83, 3px 3px 7px rgba(94,104,121,0.688);
+}
+.shape2{
+	margin: 10px;
+	width: 200px;
+	height: 200px;
+	background: #d9d9d9;
+	border-radius: 20px;
+	box-shadow:inset -3px -3px 9px #ffffff83,inset 3px 3px 7px rgba(94,104,121,0.688);
+}
+.shape3{
+	margin: 10px;
+	width: 200px;
+	height: 200px;
+	background: linear-gradient(145deg,#c3c3c3,#e8e8e8);
+	border-radius: 20px;
+	box-shadow:28px 28px 56px #ababab,-28px -28px 56px #ffffff;
+}
+.shape4{
+	margin: 10px;
+	width: 200px;
+	height: 200px;
+	background: linear-gradient(145deg,#e8e8e8,#c3c3c3);
+	border-radius: 20px;
+	box-shadow:28px 28px 56px #ababab,-28px -28px 56px #ffffff;
+}
+.shape11{
+	margin: 10px;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #d9d9d9;
+	border-radius: 20px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	box-shadow: -3px -3px 9px #ffffff83, 3px 3px 7px rgba(94,104,121,0.688);
+}
+.shape11:after{
+	content: '';
+	position: absolute;
+	width: 90%;
+	height: 90%;
+	border-radius: 20px;
+	box-shadow:28px 28px 56px #ababab,-28px -28px 56px #ffffff;
+}
+.shape33{
+	margin: 10px;
+	width: 200px;
+	height: 200px;
+	background: #d9d9d9;
+	border-radius:30px;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	box-shadow: -3px -3px 9px #ffffff83, 3px 3px 7px rgba(94,104,121,0.46),
+	 inset -3px -3px 9px #ffffff83,inset 3px 3px 7px rgba(94,104,121,0.46);
+}
+.shape33:after{
+	content: '';
+	position: absolute;
+	width: 70%;
+	height: 70%;
+	border-radius:30px;
+	box-shadow: -3px -3px 9px #ffffff83, 3px 3px 7px rgba(94,104,121,0.46);
+}
+.shape44{
+	margin: 20px;
+	width: 160px;
+	height: 160px;
+	background: #d9d9d9;
+	border-radius:30px;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	box-shadow: -3px -3px 9px #ffffff83, 3px 3px 7px rgba(94,104,121,0.46);
+	 transform: rotate(45deg);
+}
+.shape55{
+	margin: 10px;
+	width: 200px;
+	height: 200px;
+	background: #d9d9d9;
+	border-radius: 100% 0% 100% 0%/ 100% 0% 100% 0%;
+	box-shadow: -3px -3px 9px #ffffff83, 3px 3px 7px rgba(94,104,121,0.688);
+}
